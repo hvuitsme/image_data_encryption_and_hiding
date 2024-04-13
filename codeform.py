@@ -451,7 +451,7 @@ button_encode = tk.Button(left_frame, text="Mã hoá và giấu dữ liệu", co
 button_encode.grid(row=3, column=0, columnspan=3)
 
 label_image_display = tk.Label(right_frame, width=70, height=70)
-label_image_display.grid(row=0, column=0, columnspan=3)
+label_image_display.grid(row=0, column=0, columnspan=2, padx=40)
 
 label_data = tk.Label(right_frame, text="Dữ liệu trích xuất:")
 label_data.grid(row=1, column=0, sticky="w")
